@@ -440,7 +440,7 @@ p {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  line-height: 180px;
+  line-height: 350px;
 }
 
 .hero-content h1 {
@@ -448,7 +448,7 @@ p {
   font-weight: 700;
   margin-bottom: 10px;
   text-transform: uppercase;
-  color: #fff;
+  color: #000;
 }
 
 .hero-content p {
@@ -457,7 +457,7 @@ p {
   margin-top: 0;
   margin-bottom: 30px;
   text-transform: capitalize;
-  color: #fff;
+  color: #000;
   font-weight: 500;
 }
 
@@ -467,8 +467,8 @@ p {
 }
 
 .hero-content .list-social li i {
-  color: #fff;
-  font-size: 15px;
+  color: #000;
+  font-size: 30px;
 }
 
 /*--------------------------------------------------------------
