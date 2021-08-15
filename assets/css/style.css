@@ -1051,7 +1051,8 @@ blockquote {
 }
 
 /*--------------------------------------------------------------
-# Footer
+# 
+
 --------------------------------------------------------------*/
 #footer {
   background: #f7f7f7;
@@ -1076,7 +1077,7 @@ blockquote {
 }
 
 #footer .socials-media ul li a {
-  font-size: 24px;
+  font-size: 30px;
   color: #999;
   letter-spacing: 0.1em;
   font-weight: 500;
