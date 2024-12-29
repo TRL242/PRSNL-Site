@@ -2,37 +2,34 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Modern portfolio website for showcasing projects and skills.">
+  <meta name="keywords" content="Portfolio, Developer, Projects">
+  <meta name="author" content="Roy Lockhart">
+  <title>Roy Lockhart | Portfolio</title>
 
-  <title>Roy Lockhart | Developer & Analyst</title>
-  <meta content="Developer specializing in AI, finance, and data analytics with a focus on innovation and problem-solving." name="description">
-  <meta content="Roy Lockhart, A Developer, An AI Enthusiast, A Data Analyst" name="keywords">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- Favicon -->
+  <link rel="icon" href="assets/img/favicon.png" type="image/png">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Playfair+Display:400,500,600,700,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
+  <link rel="stylesheet" href="assets/vendor/swiper/swiper-bundle.min.css">
 
-  <!-- Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 
-  <!-- ======= Header ======= -->
+  <!-- Header Section -->
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
-      <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="Roy Lockhart" class="img-fluid"></a>
+      <a href="#hero" class="logo">Roy Lockhart</a>
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
@@ -46,218 +43,118 @@
     </div>
   </header>
 
-  <!-- ======= Hero Section ======= -->
-  <div id="hero" class="home">
-    <div class="container">
-      <div class="hero-content">
-        <h1>I'm <span class="typed" data-typed-items="Roy Lockhart, A Developer, An Analyst, A Consultant"></span></h1>
-        <p>Building solutions at the intersection of AI, Finance, and Analytics</p>
-        <ul class="list-unstyled list-social">
-          <li><a href="https://github.com/TRL242"><i class="bi bi-github"></i></a></li>
-          <li><a href="https://www.linkedin.com/in/roy-lockhart-pmp-ba334938"><i class="bi bi-linkedin"></i></a></li>
-        </ul>
-      </div>
+  <!-- Hero Section -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container text-center">
+      <h1>I'm Roy Lockhart</h1>
+      <p>Developer | Analyst | Consultant</p>
+      <a href="#portfolio" class="btn btn-primary scrollto">View Portfolio</a>
     </div>
-  </div>
+  </section>
 
-  <!-- ======= About Section ======= -->
-  <div id="about" class="paddsection">
+  <!-- About Section -->
+  <section id="about" class="about">
     <div class="container">
       <div class="row">
-        <div class="col-lg-7">
-          <div class="about-descr">
-            <p class="p-heading">I'm a developer and analyst based in Victoria, BC, Canada, specializing in AI, finance, and data-driven solutions.</p>
-            <p class="separator">With a strong foundation in software development, business strategy, and analytics, I aim to create innovative tools that empower businesses to thrive. My approach combines technical expertise with strategic insight to deliver impactful results.</p>
-          </div>
+        <div class="col-lg-6 order-1 order-lg-2">
+          <img src="assets/img/about-me.jpg" class="img-fluid" alt="About Me">
+        </div>
+        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1">
+          <h3>About Me</h3>
+          <p class="fst-italic">I am a developer and analyst specializing in AI, finance, and data-driven solutions.</p>
+          <p>With a strong foundation in software development and business strategy, I strive to create innovative tools and services that empower businesses to thrive in an ever-changing landscape.</p>
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
-  <!-- ======= Services Section ======= -->
-  <div id="services">
+  <!-- Services Section -->
+  <section id="services" class="services">
     <div class="container">
-      <div class="section-title text-center">
-        <h2>What I Do</h2>
+      <div class="section-title">
+        <h2>Services</h2>
+        <p>What I Offer</p>
       </div>
       <div class="row">
-        <div class="col-lg-4 col-md-6">
-          <div class="services-block">
-            <i class="bi bi-laptop"></i>
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <div class="icon-box">
+            <i class="bi bi-code-slash"></i>
             <h4>AI Development</h4>
-            <p>Building AI-powered tools with a focus on healthcare, finance, and global development.</p>
+            <p>Building AI-powered tools for healthcare, finance, and other industries.</p>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="services-block">
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <div class="icon-box">
             <i class="bi bi-bar-chart"></i>
             <h4>Data Analytics</h4>
-            <p>Transforming data into actionable insights for informed decision-making.</p>
+            <p>Transforming complex data into actionable insights for decision-making.</p>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="services-block">
-            <i class="bi bi-calendar4-week"></i>
-            <h4>Project Leadership</h4>
-            <p>Applying Agile and Scrum methodologies to deliver seamless project execution.</p>
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <div class="icon-box">
+            <i class="bi bi-clipboard-check"></i>
+            <h4>Project Management</h4>
+            <p>Leading projects to success with Agile and Scrum methodologies.</p>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
-    <!-- ======= Portfolio Section ======= -->
-    <div id="portfolio" class="paddsection">
-
-      <div class="container">
-        <div class="section-title text-center">
-          <h2>My Work</h2>
-        </div>
-      </div>
-
-      <div class="container">
-
-        <div class="row">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">Apps</li>
-<!--              <li data-filter=".filter-card">Card</li>-->
-              <li data-filter=".filter-web">Web Design</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container">
-          
-         
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/KamLogo.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Kam's Blog</h4>
-              <p>Blog for Kam <br> Flask, HTML, CSS</p>
-              <a href="https://kam-blog.herokuapp.com" class="details-link" title="Kam's Blog See Live"><i class="bx bx-link"></i>Live</a>
-              <a href="https://github.com/TRL242/kam-blog" class="details-link" title="Kam's Blog Source Code"><i class="bx bx-link"></i>Code</a>
-            </div>
-          </div>
-
-<!--          <div class="col-lg-4 col-md-6 portfolio-item filter-web">-->
-<!--            <img src="assets/img/portfolio/PalmSe_logo_black.jpg" class="img-fluid" alt="">-->
-<!--            <div class="portfolio-info">-->
-<!--              <h4>Palm Security</h4>-->
-<!--              <p>Web design for Security company in Freeport, GB, Bahamas</p>-->
-<!--              <a href="assets/img/portfolio/PalmSe_logo_black.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Palm Security"><i class="bx bx-plus"></i></a>-->
-<!--              <a href="https://trl242.github.io/palm_security" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
-<!--            </div>-->
-<!--          </div>-->
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/RealTalk_logo_large.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Real Talk Social</h4>
-              <p>Social app for all topics <br> Python, Django, PostgreSQL, HTML, CSS</p>
-              <a href="https://realtalksocial.herokuapp.com/" class="details-link" title="Real Talk Social See Live"><i class="bx bx-link"></i>Live</a>
-              <a href="https://github.com/TRL242/real_talk_social" class="details-link" title="Real Talk Social Source Code"><i class="bx bx-link"></i>Code</a>
-            </div>
-          </div>
-         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/the_o_logo_white.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>O Bar Waiter Review</h4>
-              <p>Email review app for waiters.<br> Python, PostgreSQL, Flask, HTML, CSS</p>
-              <a href="https://o-bar-waiter-rating.herokuapp.com" class="details-link" title="Waiter Review See Live"><i class="bx bx-link"></i>Live</a>
-              <a href="https://github.com/TRL242/Waiter_rating" class="details-link" title="Waiter Review Source Code"><i class="bx bx-link"></i>Code</a>
-              
-            </div>
-          </div>
-         
-         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/the_o_logo_white.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>O Bar Website</h4>
-              <p>Website for O BAR <br> Python, Flask, HTML, CSS</p>
-              <a href="https://obarwebsite.herokuapp.com" class="details-link" title="O BAR Website See Live"><i class="bx bx-link"></i>Live</a>
-              <a href="https://github.com/TRL242/o_bar_grill" class="details-link" title="O BAR Website Source Code"><i class="bx bx-link"></i>Code</a>
-            </div>
-          </div>
-         
-         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/HarboursideDentLogo.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Harbourside Dentistry</h4>
-              <p>Wordpress website for Dental Clinic<br> Wordpress, HTML, CSS</p>
-              <a href="https://harboursidedentistry.com/" class="details-link" title="More Details"><i class="bx bx-link"></i>Live</a>
-              <a href="assets/img/portfolio/HarboursideDentLogo.jpg" class="details-link" title="Harbourside Dentistry"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Pollster</h4>
-              <p>App to record polling.<br> Python, Django, HTML, CSS</p>
-              <a href="https://poll-it-app.herokuapp.com" class="details-link" title="Pollster See Live"><i class="bx bx-link"></i>Live</a>
-              <a href="https://github.com/TRL242/polling_app" class="details-link" title="Pollster Source Code"><i class="bx bx-link"></i>Code</a>
-              
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/livechatlogo.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Chat It Up <br> Python, Django, HTML, CSS</h4>
-              <p>Pick a chatroom and a username to chat with people sharing the chatroom.</p>
-              <a href="https://chat-up-app.herokuapp.com" class="details-link" title="Chat It Up See Live"><i class="bx bx-link"></i>Live</a>
-              <a href="https://github.com/TRL242/chat_app_django_2" class="details-link" title="Chat It Up Source Code"><i class="bx bx-link"></i>Code</a>
-            </div>
-          </div>
-
-          
-         
-
-<!--          <div class="col-lg-4 col-md-6 portfolio-item filter-web">-->
-<!--            <img src="assets/img/portfolio/the_o_logo_white.png" class="img-fluid" alt="">-->
-<!--            <div class="portfolio-info">-->
-<!--              <h4>The O</h4>-->
-<!--              <p>Web design for The O Beach Club</p>-->
-<!--              <a href="assets/img/portfolio/the_o_logo_white.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="The O"><i class="bx bx-plus"></i></a>-->
-<!--              <a href="https://trl242.github.io/o_bar_grill" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
-<!--            </div>-->
-<!--          </div>-->
-
-          
-
-        </div>
-
-      </div>
-
-    </div><!-- End Portfolio Section -->
-
-
-<!-- ======= Contact Section ======= -->
-  <div id="contact" class="paddsection">
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio">
     <div class="container">
+      <div class="section-title">
+        <h2>Portfolio</h2>
+        <p>My Work</p>
+      </div>
       <div class="row">
-        <div class="col-lg-6">
-          <h2>Contact Me</h2>
-          <ul class="contact-details">
-            <li>Victoria, BC, Canada</li>
-          </ul>
-        </div>
-        <div class="col-lg-6">
-          <form action="https://formspree.io/f/xayajenn" method="post">
-            <label for="name">Name:</label>
-            <input type="text" name="name" id="name" required>
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email" required>
-            <label for="message">Message:</label>
-            <textarea name="message" id="message" rows="5" required></textarea>
-            <button type="submit">Send</button>
-          </form>
+        <div class="col-lg-4 col-md-6 portfolio-item">
+          <img src="assets/img/portfolio/project-1.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Project Name</h4>
+            <p>Description</p>
+            <a href="https://github.com/TRL242/project" target="_blank">View Code</a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-title">
+        <h2>Contact</h2>
+        <p>Get In Touch</p>
+      </div>
+      <form action="https://formspree.io/f/xayajenn" method="POST">
+        <div class="row">
+          <div class="col-md-6">
+            <input type="text" name="name" placeholder="Your Name" required>
+          </div>
+          <div class="col-md-6">
+            <input type="email" name="email" placeholder="Your Email" required>
+          </div>
+        </div>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer id="footer">
+    <div class="container text-center">
+      <p>&copy; 2024 Roy Lockhart. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 </body>
 
