@@ -2,34 +2,37 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Modern portfolio website for showcasing projects and skills.">
-  <meta name="keywords" content="Portfolio, Developer, Projects">
-  <meta name="author" content="Roy Lockhart">
-  <title>Roy Lockhart | Portfolio</title>
+  <title>Roy Lockhart | Developer & Analyst</title>
+  <meta name="description" content="Developer specializing in AI, finance, and data analytics with a focus on innovation and problem-solving.">
+  <meta name="keywords" content="Roy Lockhart, Developer, AI Enthusiast, Data Analyst">
 
-  <!-- Favicon -->
-  <link rel="icon" href="assets/img/favicon.png" type="image/png">
+  <!-- Favicons -->
+  <link rel="icon" href="assets/img/favicon.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
-  <link rel="stylesheet" href="assets/vendor/swiper/swiper-bundle.min.css">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
-
-  <!-- Header Section -->
+  <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
-      <a href="#hero" class="logo">Roy Lockhart</a>
+      <a href="index.html" class="logo">
+        <img src="assets/img/logo.png" alt="Roy Lockhart" class="img-fluid">
+      </a>
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
@@ -43,118 +46,115 @@
     </div>
   </header>
 
-  <!-- Hero Section -->
+  <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
-    <div class="container text-center">
-      <h1>I'm Roy Lockhart</h1>
-      <p>Developer | Analyst | Consultant</p>
-      <a href="#portfolio" class="btn btn-primary scrollto">View Portfolio</a>
+    <div class="container text-center position-relative" data-aos="fade-in" data-aos-delay="200">
+      <h1>I'm <span id="typed" data-typed-items="Roy Lockhart, A Developer, An Analyst, A Consultant"></span></h1>
+      <p>Building solutions at the intersection of AI, Finance, and Analytics</p>
+      <div class="social-links">
+        <a href="https://github.com/TRL242" class="github"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/roy-lockhart-pmp-ba334938" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
     </div>
   </section>
 
-  <!-- About Section -->
+  <!-- ======= About Section ======= -->
   <section id="about" class="about">
-    <div class="container">
+    <div class="container" data-aos="fade-up">
       <div class="row">
-        <div class="col-lg-6 order-1 order-lg-2">
-          <img src="assets/img/about-me.jpg" class="img-fluid" alt="About Me">
-        </div>
-        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1">
-          <h3>About Me</h3>
-          <p class="fst-italic">I am a developer and analyst specializing in AI, finance, and data-driven solutions.</p>
-          <p>With a strong foundation in software development and business strategy, I strive to create innovative tools and services that empower businesses to thrive in an ever-changing landscape.</p>
+        <div class="col-lg-7">
+          <h2>About Me</h2>
+          <p>I'm a developer and analyst based in Victoria, BC, Canada, specializing in AI, finance, and data-driven solutions. With a strong foundation in software development, business strategy, and analytics, I aim to create innovative tools that empower businesses to thrive.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Services Section -->
+  <!-- ======= Services Section ======= -->
   <section id="services" class="services">
-    <div class="container">
+    <div class="container" data-aos="fade-up">
       <div class="section-title">
-        <h2>Services</h2>
-        <p>What I Offer</p>
+        <h2>What I Do</h2>
       </div>
       <div class="row">
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+        <div class="col-lg-4 col-md-6">
           <div class="icon-box">
-            <i class="bi bi-code-slash"></i>
+            <i class="bi bi-laptop"></i>
             <h4>AI Development</h4>
-            <p>Building AI-powered tools for healthcare, finance, and other industries.</p>
+            <p>Building AI-powered tools with a focus on healthcare, finance, and global development.</p>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+        <div class="col-lg-4 col-md-6">
           <div class="icon-box">
             <i class="bi bi-bar-chart"></i>
             <h4>Data Analytics</h4>
-            <p>Transforming complex data into actionable insights for decision-making.</p>
+            <p>Transforming data into actionable insights for informed decision-making.</p>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+        <div class="col-lg-4 col-md-6">
           <div class="icon-box">
-            <i class="bi bi-clipboard-check"></i>
-            <h4>Project Management</h4>
-            <p>Leading projects to success with Agile and Scrum methodologies.</p>
+            <i class="bi bi-calendar4-week"></i>
+            <h4>Project Leadership</h4>
+            <p>Applying Agile and Scrum methodologies to deliver seamless project execution.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Portfolio Section -->
+  <!-- ======= Portfolio Section ======= -->
   <section id="portfolio" class="portfolio">
-    <div class="container">
+    <div class="container" data-aos="fade-up">
       <div class="section-title">
-        <h2>Portfolio</h2>
-        <p>My Work</p>
+        <h2>My Work</h2>
       </div>
-      <div class="row">
+      <div class="row portfolio-container">
         <div class="col-lg-4 col-md-6 portfolio-item">
-          <img src="assets/img/portfolio/project-1.jpg" class="img-fluid" alt="">
+          <img src="assets/img/portfolio/KamLogo.png" class="img-fluid" alt="">
           <div class="portfolio-info">
-            <h4>Project Name</h4>
-            <p>Description</p>
-            <a href="https://github.com/TRL242/project" target="_blank">View Code</a>
+            <h4>Kam's Blog</h4>
+            <p>Flask, HTML, CSS</p>
+            <a href="https://kam-blog.herokuapp.com" class="details-link">Live</a>
+            <a href="https://github.com/TRL242/kam-blog" class="details-link">Code</a>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Contact Section -->
+  <!-- ======= Contact Section ======= -->
   <section id="contact" class="contact">
-    <div class="container">
-      <div class="section-title">
-        <h2>Contact</h2>
-        <p>Get In Touch</p>
-      </div>
-      <form action="https://formspree.io/f/xayajenn" method="POST">
-        <div class="row">
-          <div class="col-md-6">
-            <input type="text" name="name" placeholder="Your Name" required>
-          </div>
-          <div class="col-md-6">
-            <input type="email" name="email" placeholder="Your Email" required>
-          </div>
+    <div class="container" data-aos="fade-up">
+      <div class="row">
+        <div class="col-lg-6">
+          <h2>Contact Me</h2>
+          <ul>
+            <li>Victoria, BC, Canada</li>
+          </ul>
         </div>
-        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-        <button type="submit">Send Message</button>
-      </form>
+        <div class="col-lg-6">
+          <form action="https://formspree.io/f/xayajenn" method="post">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" name="name" id="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea name="message" id="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </div>
     </div>
   </section>
 
-  <!-- Footer Section -->
-  <footer id="footer">
-    <div class="container text-center">
-      <p>&copy; 2024 Roy Lockhart. All Rights Reserved.</p>
-    </div>
-  </footer>
-
-  <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-  <!-- Main JS File -->
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/js/main.js"></script>
 </body>
 
