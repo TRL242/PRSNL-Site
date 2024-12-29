@@ -33,39 +33,41 @@
       <a href="index.html" class="logo">
         <img src="assets/img/logo.png" alt="Roy Lockhart" class="img-fluid">
       </a>
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
+      <nav id="navbar" class="navbar navbar-expand-lg">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link scrollto active" href="#hero">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scrollto" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scrollto" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scrollto" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scrollto" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </div>
   </header>
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
+  <section id="hero" class="d-flex align-items-center" style="background: url('assets/img/hero-bg.jpg') no-repeat center center/cover;">
     <div class="container text-center position-relative" data-aos="fade-in" data-aos-delay="200">
       <h1>Welcome to My World</h1>
       <p>I am Roy Lockhart, an experienced Developer and Analyst creating innovative solutions in AI, Finance, and Analytics. My passion lies in empowering businesses to thrive with data-driven tools and technology.</p>
       <div class="social-links">
         <a href="https://github.com/TRL242" class="github"><i class="bi bi-github"></i></a>
         <a href="https://www.linkedin.com/in/roy-lockhart-pmp-ba334938" class="linkedin"><i class="bi bi-linkedin"></i></a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ======= About Section ======= -->
-  <section id="about" class="about">
-    <div class="container" data-aos="fade-up">
-      <div class="row">
-        <div class="col-lg-7">
-          <h2>About Me</h2>
-          <p>I'm a developer and analyst based in Victoria, BC, Canada, specializing in AI, finance, and data-driven solutions. With a strong foundation in software development, business strategy, and analytics, I aim to create innovative tools that empower businesses to thrive. My approach combines technical expertise with strategic insight to deliver impactful results.</p>
-        </div>
       </div>
     </div>
   </section>
@@ -152,7 +154,12 @@
       </div>
     </div>
   </section>
-
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.0/js/bootstrap.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/js/main.js"></script>
