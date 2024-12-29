@@ -1,105 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Company Name</title>
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <title>Roy Lockhart | Developer & Analyst</title>
+  <meta name="description" content="Developer specializing in AI, finance, and data analytics with a focus on innovation and problem-solving.">
+  <meta name="keywords" content="Roy Lockhart, Developer, AI Enthusiast, Data Analyst">
+
+  <!-- Favicons -->
+  <link rel="icon" href="assets/img/favicon.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 </head>
+
 <body>
-  <header>
-    <div class="container">
-      <div class="logo">
-        <img src="assets/logo.png" alt="Your Company Logo">
-      </div>
-      <nav>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo">
+        <img src="assets/img/logo.png" alt="Roy Lockhart" class="img-fluid">
+      </a>
+      <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
     </div>
   </header>
 
-  <section id="hero">
-    <div class="container">
-      <h1>Welcome to Your Company</h1>
-      <p>We build innovative solutions that drive success.</p>
-      <a href="#about" class="btn">Learn More</a>
-    </div>
-  </section>
-
-  <section id="about">
-    <div class="container">
-      <h2>About Us</h2>
-      <p>We are a leading firm specializing in delivering top-notch services to our clients. Our team of experts is dedicated to providing innovative solutions that meet your business needs.</p>
-    </div>
-  </section>
-
-  <section id="services">
-    <div class="container">
-      <h2>Our Services</h2>
-      <div class="service">
-        <h3>Service One</h3>
-        <p>We offer exceptional service one that caters to your specific requirements.</p>
-      </div>
-      <div class="service">
-        <h3>Service Two</h3>
-        <p>Our service two is designed to provide you with the best results possible.</p>
-      </div>
-      <div class="service">
-        <h3>Service Three</h3>
-        <p>Experience unparalleled excellence with our service three offerings.</p>
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container text-center position-relative" data-aos="fade-in" data-aos-delay="200">
+      <h1>I'm <span id="typed" data-typed-items="Roy Lockhart, A Developer, An Analyst, A Consultant"></span></h1>
+      <p>Building solutions at the intersection of AI, Finance, and Analytics</p>
+      <div class="social-links">
+        <a href="https://github.com/TRL242" class="github"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/roy-lockhart-pmp-ba334938" class="linkedin"><i class="bi bi-linkedin"></i></a>
       </div>
     </div>
   </section>
 
-  <section id="portfolio">
-    <div class="container">
-      <h2>Our Portfolio</h2>
-      <div class="portfolio-item">
-        <img src="assets/portfolio1.jpg" alt="Project One">
-        <h3>Project One</h3>
-        <p>A brief description of project one showcasing our expertise.</p>
-      </div>
-      <div class="portfolio-item">
-        <img src="assets/portfolio2.jpg" alt="Project Two">
-        <h3>Project Two</h3>
-        <p>A brief description of project two highlighting our capabilities.</p>
-      </div>
-      <div class="portfolio-item">
-        <img src="assets/portfolio3.jpg" alt="Project Three">
-        <h3>Project Three</h3>
-        <p>A brief description of project three demonstrating our skills.</p>
+  <!-- ======= About Section ======= -->
+  <section id="about" class="about">
+    <div class="container" data-aos="fade-up">
+      <div class="row">
+        <div class="col-lg-7">
+          <h2>About Me</h2>
+          <p>I'm a developer and analyst based in Victoria, BC, Canada, specializing in AI, finance, and data-driven solutions. With a strong foundation in software development, business strategy, and analytics, I aim to create innovative tools that empower businesses to thrive.</p>
+        </div>
       </div>
     </div>
   </section>
 
-  <section id="contact">
-    <div class="container">
-      <h2>Contact Us</h2>
-      <form action="submit_form.php" method="post">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
-
-        <button type="submit" class="btn">Send Message</button>
-      </form>
+  <!-- ======= Services Section ======= -->
+  <section id="services" class="services">
+    <div class="container" data-aos="fade-up">
+      <div class="section-title">
+        <h2>What I Do</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="icon-box">
+            <i class="bi bi-laptop"></i>
+            <h4>AI Development</h4>
+            <p>Building AI-powered tools with a focus on healthcare, finance, and global development.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="icon-box">
+            <i class="bi bi-bar-chart"></i>
+            <h4>Data Analytics</h4>
+            <p>Transforming data into actionable insights for informed decision-making.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="icon-box">
+            <i class="bi bi-calendar4-week"></i>
+            <h4>Project Leadership</h4>
+            <p>Applying Agile and Scrum methodologies to deliver seamless project execution.</p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
-  <footer>
-    <div class="container">
-      <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+    <!-- ======= Portfolio Section ======= -->
+  <!-- <section id="portfolio" class="portfolio">
+    <div class="container" data-aos="fade-up">
+      <div class="section-title">
+        <h2>My Work</h2>
+      </div>
+      <div class="row portfolio-container">
+        <div class="col-lg-4 col-md-6 portfolio-item">
+          <img src="assets/img/portfolio/KamLogo.png" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Kam's Blog</h4>
+            <p>Flask, HTML, CSS</p>
+            <a href="https://kam-blog.herokuapp.com" class="details-link">Live</a>
+            <a href="https://github.com/TRL242/kam-blog" class="details-link">Code</a>
+          </div>
+        </div>
+      </div>
     </div>
-  </footer>
+  </section> -->
+
+
+  <!-- ======= Contact Section ======= -->
+  <section id="contact" class="contact">
+    <div class="container" data-aos="fade-up">
+      <div class="row">
+        <div class="col-lg-6">
+          <h2>Contact Me</h2>
+          <ul>
+            <li>Victoria, BC, Canada</li>
+          </ul>
+        </div>
+        <div class="col-lg-6">
+          <form action="https://formspree.io/f/xayajenn" method="post">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" name="name" id="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea name="message" id="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
+
 </html>
