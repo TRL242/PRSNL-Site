@@ -33,27 +33,43 @@
       <a href="index.html" class="logo">
         <img src="assets/img/logo.png" alt="Roy Lockhart" class="img-fluid">
       </a>
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
+      <nav id="navbar" class="navbar navbar-expand-lg">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#hero">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <!-- Uncomment the following line to include the Portfolio section -->
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </div>
   </header>
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
+  <section id="hero" class="d-flex align-items-center" style="background-image: url('assets/img/hero-bg.jpg'); background-size: cover; background-position: center;">
     <div class="container text-center position-relative" data-aos="fade-in" data-aos-delay="200">
-      <h1>I'm <span id="typed" data-typed-items="Roy Lockhart, A Developer, An Analyst, A Consultant"></span></h1>
-      <p>Building solutions at the intersection of AI, Finance, and Analytics</p>
-      <div class="social-links">
-        <a href="https://github.com/TRL242" class="github"><i class="bi bi-github"></i></a>
-        <a href="https://www.linkedin.com/in/roy-lockhart-pmp-ba334938" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      <h1 class="display-4 fw-bold text-white">I'm <span id="typed" data-typed-items="Roy Lockhart, A Developer, An Analyst, A Consultant"></span></h1>
+      <p class="lead text-white">Building solutions at the intersection of AI, Finance, and Analytics</p>
+      <a href="#about" class="btn btn-primary mt-3">Learn More</a>
+      <div class="social-links mt-4">
+        <a href="https://github.com/TRL242" class="github text-white me-3"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/roy-lockhart-pmp-ba334938" class="linkedin text-white"><i class="bi bi-linkedin"></i></a>
       </div>
     </div>
   </section>
